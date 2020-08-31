@@ -2,8 +2,8 @@
   "name": "john-cli",
   "version": "1.0.4",
   "description": "Just a cool Cli",
-  "main": "index.js",
-  "bin": "index.js",
+  "main": "src/index.js",
+  "bin": "src/index.js",
   "dependencies": {
     "chalk": "^4.1.0",
     "clear": "^0.1.0",
@@ -14,12 +14,21 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node src/index.js"
   },
   "keywords": [
     "john-cli",
     "john"
   ],
   "author": "João Gomes",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joaosilgo/john-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Joaosilgo/john-cli/issues"
+  },
+  "homepage": "https://github.com/Joaosilgo/john-cli#readme"
 }
+
