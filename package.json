@@ -1,0 +1,25 @@
+{
+  "name": "john-cli",
+  "version": "1.0.4",
+  "description": "Just a cool Cli",
+  "main": "index.js",
+  "bin": "index.js",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "clear": "^0.1.0",
+    "commander": "^6.1.0",
+    "figlet": "^1.5.0",
+    "inquirer": "^7.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "john-cli",
+    "john"
+  ],
+  "author": "João Gomes",
+  "license": "ISC"
+}
